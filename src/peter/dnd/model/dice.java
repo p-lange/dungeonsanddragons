@@ -31,7 +31,7 @@ public enum dice {
 
     public int rollDice(int number) {
         totalResult = 0;
-        for (int i = 1; i < number; i++) {
+        for (int i = 1; i <= number; i++) {
            int rand = ThreadLocalRandom.current().nextInt(1, mDieSize + 1);
             totalResult += rand;
         }

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b639e735-9b87-4927-913a-e9970b09cfad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/peter/dnd/model/rolls/roll.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DungeonsAndDragons/peter/dnd/model/PlayerCharacter.class" afterPath="$PROJECT_DIR$/out/production/DungeonsAndDragons/peter/dnd/model/PlayerCharacter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/peter/dnd/model/rolls/roll.java" afterPath="$PROJECT_DIR$/src/peter/dnd/model/rolls/Roll.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DungeonsAndDragons/peter/dnd/Main.class" afterPath="$PROJECT_DIR$/out/production/DungeonsAndDragons/peter/dnd/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DungeonsAndDragons.iml" afterPath="$PROJECT_DIR$/DungeonsAndDragons.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peter/dnd/Main.java" afterPath="$PROJECT_DIR$/src/peter/dnd/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/peter/dnd/model/dice.java" afterPath="$PROJECT_DIR$/src/peter/dnd/model/dice.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/peter/dnd/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="308">
+              <caret line="83" column="57" lean-forward="true" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,49 +34,104 @@
       <file leaf-file-name="dice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/dice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerCharacter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/PlayerCharacter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="578">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AttackRoll.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/AttackRoll.java">
+        <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/rolls/AttackRoll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rollTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/peter/dnd/model/rolls/rollTest.java">
+      <file leaf-file-name="CreatureTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/peter/dnd/model/CreatureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roll.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/rolls/roll.java">
+      <file leaf-file-name="DamageRoll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/rolls/DamageRoll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="77" />
+              <folding>
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attackRollTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/peter/dnd/model/rolls/attackRollTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Creature.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/characters/Creature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="141" column="37" lean-forward="false" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
+              <folding>
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#2725#2726#0" expanded="true" />
+                <element signature="e#2753#2754#0" expanded="true" />
+                <element signature="e#2861#2862#0" expanded="true" />
+                <element signature="e#2895#2896#0" expanded="true" />
+                <element signature="e#3041#3042#0" expanded="true" />
+                <element signature="e#3085#3086#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Roll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/rolls/Roll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+              <folding>
+                <element signature="e#1317#1318#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+                <element signature="e#1663#1664#0" expanded="true" />
+                <element signature="e#1698#1699#0" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
+                <element signature="e#1756#1757#0" expanded="true" />
+                <element signature="e#1795#1796#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,8 +141,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -109,13 +165,25 @@
       <list>
         <option value="$PROJECT_DIR$/src/peter/dnd/model/playerCharacter.java" />
         <option value="$PROJECT_DIR$/src/peter/dnd/model/AttackRoll.java" />
-        <option value="$PROJECT_DIR$/src/peter/dnd/model/dice.java" />
-        <option value="$PROJECT_DIR$/src/peter/dnd/Main.java" />
         <option value="$PROJECT_DIR$/src/peter/dnd/model/PlayerCharacter.java" />
         <option value="$PROJECT_DIR$/src/peter/dnd/model/rolls/rollTest.groovy" />
         <option value="$PROJECT_DIR$/tests/rollTest.groovy" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/model/characters/character.java" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/model/characters/Creature.java" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/model/rolls/attackDamage.java" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/model/rolls/attack.java" />
         <option value="$PROJECT_DIR$/src/peter/dnd/model/rolls/roll.java" />
+        <option value="$PROJECT_DIR$/tests/peter/dnd/model/rolls/attackTest.java" />
         <option value="$PROJECT_DIR$/tests/peter/dnd/model/rolls/rollTest.java" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/model/rolls/damage.java" />
+        <option value="$PROJECT_DIR$/tests/peter/dnd/model/PlayerCharacterTest.java" />
+        <option value="$PROJECT_DIR$/tests/peter/dnd/model/CreeatureTest.java" />
+        <option value="$PROJECT_DIR$/tests/peter/dnd/model/CreatureTest.java" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/model/rolls/DamageRoll.java" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/model/dice.java" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/model/rolls/AttackRoll.java" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/Main.java" />
+        <option value="$PROJECT_DIR$/src/peter/dnd/model/rolls/Roll.java" />
       </list>
     </option>
   </component>
@@ -170,6 +238,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dungeonsanddragons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dungeonsanddragons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="rolls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -237,6 +327,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rolls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dungeonsanddragons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dungeonsanddragons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="characters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,9 +365,11 @@
   <component name="PropertiesComponent">
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="peter.dnd.model" />
       <recent name="peter.dnd.model.rolls" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -274,37 +392,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.rollTest.rollFailsWhenImpossible">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="peter.dnd.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="attackRollTest.PlayerAttacksMonster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="peter.dnd.model.rolls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DungeonsAndDragons" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="peter.dnd.model.rolls" />
+      <option name="MAIN_CLASS_NAME" value="peter.dnd.model.rolls.attackRollTest" />
+      <option name="METHOD_NAME" value="PlayerAttacksMonster" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="peter.dnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="peter.dnd.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="DungeonsAndDragons" />
       <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="rollTest.testRoll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PlayerCharacterTest.getStrMod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="peter.dnd.model.rolls.*" />
+          <option name="PATTERN" value="peter.dnd.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DungeonsAndDragons" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="peter.dnd.model.rolls" />
-      <option name="MAIN_CLASS_NAME" value="peter.dnd.model.rolls.rollTest" />
-      <option name="METHOD_NAME" value="testRoll" />
+      <option name="PACKAGE_NAME" value="peter.dnd.model" />
+      <option name="MAIN_CLASS_NAME" value="peter.dnd.model.PlayerCharacterTest" />
+      <option name="METHOD_NAME" value="getStrMod" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -318,72 +465,46 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="rollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PlayerCharacterTest.GetStrengthModReturnsCorrectValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="peter.dnd.model.rolls.*" />
+          <option name="PATTERN" value="peter.dnd.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="DungeonsAndDragons" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="peter.dnd.model.rolls" />
-      <option name="MAIN_CLASS_NAME" value="peter.dnd.model.rolls.rollTest" />
+      <option name="PACKAGE_NAME" value="peter.dnd.model" />
+      <option name="MAIN_CLASS_NAME" value="peter.dnd.model.PlayerCharacterTest" />
+      <option name="METHOD_NAME" value="GetStrengthModReturnsCorrectValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="peter.dnd.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DungeonsAndDragons" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="peter.dnd.model" />
+      <option name="MAIN_CLASS_NAME" value="peter.dnd.model.CreatureTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="rollTest.rollResultsInFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="peter.dnd.model.rolls.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DungeonsAndDragons" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="peter.dnd.model.rolls" />
-      <option name="MAIN_CLASS_NAME" value="peter.dnd.model.rolls.rollTest" />
-      <option name="METHOD_NAME" value="rollResultsInFail" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="rollTest.rollFailsWhenImpossible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="peter.dnd.model.rolls.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DungeonsAndDragons" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="peter.dnd.model.rolls" />
-      <option name="MAIN_CLASS_NAME" value="peter.dnd.model.rolls.rollTest" />
-      <option name="METHOD_NAME" value="rollFailsWhenImpossible" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -578,19 +699,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.rollTest.testRoll" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.rollTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.rollTest.rollResultsInFail" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.rollTest.rollFailsWhenImpossible" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.attackRollTest.PlayerAttacksMonster" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PlayerCharacterTest.getStrMod" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PlayerCharacterTest.GetStrengthModReturnsCorrectValue" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CreatureTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.rollTest.rollFailsWhenImpossible" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.rollTest.rollResultsInFail" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.rollTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.rollTest.testRoll" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CreatureTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PlayerCharacterTest.GetStrengthModReturnsCorrectValue" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PlayerCharacterTest.getStrMod" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.attackRollTest.PlayerAttacksMonster" />
       </list>
     </recent_temporary>
   </component>
@@ -608,38 +729,46 @@
       <option name="presentableId" value="Default" />
       <updated>1493960285604</updated>
     </task>
+    <task id="LOCAL-00001" summary="added a generic Roll class that can be expanded into attacks, saves, and ability checks.">
+      <created>1497737386543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497737386543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="rollTest - 2017.06.17 at 15h 00m 53s.xml">
-      <configuration name="rollTest" configurationId="JUnit" />
+    <history-entry file="CreatureTest - 2017.06.17 at 17h 17m 51s.xml">
+      <configuration name="CreatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rollTest_rollFailsWhenImpossible - 2017.06.17 at 15h 08m 57s.xml">
-      <configuration name="rollTest.rollFailsWhenImpossible" configurationId="JUnit" />
+    <history-entry file="CreatureTest - 2017.06.17 at 17h 18m 14s.xml">
+      <configuration name="CreatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rollTest_rollResultsInFail - 2017.06.17 at 15h 01m 39s.xml">
-      <configuration name="rollTest.rollResultsInFail" configurationId="JUnit" />
+    <history-entry file="CreatureTest - 2017.06.17 at 17h 18m 28s.xml">
+      <configuration name="CreatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rollTest_rollResultsInFail - 2017.06.17 at 15h 02m 17s.xml">
-      <configuration name="rollTest.rollResultsInFail" configurationId="JUnit" />
+    <history-entry file="CreatureTest - 2017.06.17 at 17h 18m 44s.xml">
+      <configuration name="CreatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rollTest_rollResultsInFail - 2017.06.17 at 15h 03m 09s.xml">
-      <configuration name="rollTest.rollResultsInFail" configurationId="JUnit" />
+    <history-entry file="CreatureTest - 2017.06.17 at 17h 18m 54s.xml">
+      <configuration name="CreatureTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rollTest_rollResultsInFail - 2017.06.17 at 15h 07m 44s.xml">
-      <configuration name="rollTest.rollResultsInFail" configurationId="JUnit" />
+    <history-entry file="PlayerCharacterTest_GetStrengthModReturnsCorrectValue - 2017.06.17 at 17h 15m 14s.xml">
+      <configuration name="PlayerCharacterTest.GetStrengthModReturnsCorrectValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rollTest_testRoll - 2017.06.17 at 14h 51m 43s.xml">
-      <configuration name="rollTest.testRoll" configurationId="JUnit" />
+    <history-entry file="PlayerCharacterTest_getStrMod - 2017.06.17 at 17h 14m 19s.xml">
+      <configuration name="PlayerCharacterTest.getStrMod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rollTest_testRoll - 2017.06.17 at 14h 57m 04s.xml">
-      <configuration name="rollTest.testRoll" configurationId="JUnit" />
+    <history-entry file="PlayerCharacterTest_getStrMod - 2017.06.17 at 17h 14m 42s.xml">
+      <configuration name="PlayerCharacterTest.getStrMod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rollTest_testRoll - 2017.06.17 at 14h 57m 25s.xml">
-      <configuration name="rollTest.testRoll" configurationId="JUnit" />
+    <history-entry file="PlayerCharacterTest_getStrMod - 2017.06.17 at 17h 15m 08s.xml">
+      <configuration name="PlayerCharacterTest.getStrMod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="rollTest_testRoll - 2017.06.17 at 14h 58m 09s.xml">
-      <configuration name="rollTest.testRoll" configurationId="JUnit" />
+    <history-entry file="attackTest_PlayerAttacksMonster - 2017.06.17 at 15h 46m 03s.xml">
+      <configuration name="attackTest.PlayerAttacksMonster" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -655,12 +784,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42686892" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17857143" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -672,18 +802,18 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="added a generic Roll class that can be expanded into attacks, saves, and ability checks." />
+    <option name="LAST_COMMIT_MESSAGE" value="added a generic Roll class that can be expanded into attacks, saves, and ability checks." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -828,22 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/PlayerCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/dice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/rollTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -860,16 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/peter/dnd/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/AttackRoll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -878,19 +982,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/rolls/roll.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/peter/dnd/model/rolls/rollTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/PlayerCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/peter/dnd/model/rolls/attackRollTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/characters/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="141" column="37" lean-forward="false" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
+          <folding>
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#2725#2726#0" expanded="true" />
+            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#2861#2862#0" expanded="true" />
+            <element signature="e#2895#2896#0" expanded="true" />
+            <element signature="e#3041#3042#0" expanded="true" />
+            <element signature="e#3085#3086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/peter/dnd/model/CreatureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/rolls/DamageRoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="77" />
+          <folding>
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/rolls/AttackRoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peter/dnd/model/rolls/Roll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1698#1699#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/peter/dnd/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="83" column="57" lean-forward="true" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
